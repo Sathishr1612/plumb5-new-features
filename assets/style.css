@@ -151,15 +151,15 @@ nav {
 }
 
 .nav-links a {
-  color: #6b7280; /* softer gray */
+  color: #6b7280; 
   text-decoration: none;
 
-  font-size: 14px;        /* better readability */
-  font-weight: 600;       /* less heavy than 800 */
-  letter-spacing: 0.04em; /* cleaner spacing */
+  font-size: 14px;        
+  font-weight: 600;      
+  letter-spacing: 0.04em; 
   text-transform: uppercase;
 
-  padding: 10px 16px;     /* better clickable area */
+  padding: 10px 16px;     
   border-radius: 8px;
 
   transition: all 0.2s ease;
@@ -384,10 +384,10 @@ nav {
 
 .hero h1 {
   font-family: 'Outfit', sans-serif;
-  font-size: clamp(40px, 4.5vw, 60px); /* reduced */
+  font-size: clamp(40px, 4.5vw, 60px); 
   font-weight: 900;
-  line-height: 1.08; /* slightly more breathing space */
-  letter-spacing: -2px; /* slightly less tight */
+  line-height: 1.08; 
+  letter-spacing: -2px; 
   color: var(--ink);
   margin-bottom: 8px;
   opacity: 0;
@@ -1849,7 +1849,7 @@ section {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/assets/images/marketing-sales.png') center/cover no-repeat;
+  background: url('../assets/images/gmail.jpg') center/cover no-repeat;
   opacity: .07;
   pointer-events: none;
 }
