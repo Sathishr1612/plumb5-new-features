@@ -384,10 +384,10 @@ nav {
 
 .hero h1 {
   font-family: 'Outfit', sans-serif;
-  font-size: clamp(44px, 5.2vw, 66px);
+  font-size: clamp(40px, 4.5vw, 60px); /* reduced */
   font-weight: 900;
-  line-height: 1.05;
-  letter-spacing: -2.5px;
+  line-height: 1.08; /* slightly more breathing space */
+  letter-spacing: -2px; /* slightly less tight */
   color: var(--ink);
   margin-bottom: 8px;
   opacity: 0;
